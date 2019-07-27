@@ -50,3 +50,35 @@ br {
     font-size: 13px; /* Размер текста */
     padding: 13px 45px;
 }
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: gainsboro;
+}
+.menu{
+    height: 40px;
+    padding-top: 44px;
+    color: gainsboro;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+#menu1{
+    float: left;
+    margin-left: 50%;
+}
+#menu2{
+    float: left;
+    margin-left: 2.8%;
+}
+#menu3{
+    float: left;
+    margin-left: 2.8%;
+}
+#menu4{
+    float: left;
+    margin-left: 2.8%;
+}
+#menu5{
+    float: left;
+    margin-left: 2.8%;
+}
