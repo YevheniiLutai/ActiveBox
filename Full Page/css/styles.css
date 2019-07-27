@@ -103,12 +103,15 @@ br {
 }
 
 
+
 #one, #two, #three, #four, #five, #six, #seven, #eight {
-    width: 24%;
+    width: 24.94%;
+    background-size: cover;
     height: 350px;
     margin-left: 10px;
     display: block;
    }
+
 
 #one{
      float: left;
