@@ -8,16 +8,26 @@
 
 .part2 {
 
-     background-size: cover;
-     height: 705px;
+    background-size: cover;
+    height: 705px;
 
- }
+}
 .part3 {
     background-color: white;
     background-size: cover;
     height: 780px;
     text-align: center;
 
+}
+#ActiveBox{
+    position:absolute;
+    left:18.5%;
+    top:40px;"
+}
+#Line{
+    position:absolute;
+    left:18.5%;
+    top: 100px;
 }
 A {
     text-decoration: none; /* Убирает подчеркивание для ссылок */
@@ -138,12 +148,12 @@ br {
     height: 350px;
 
     display: block;
-   }
+}
 
 #one{
-     float: left;
+    float: left;
 
-     background-image: url(../image/Layer35.png);
+    background-image: url(../image/Layer35.png);
 }
 #one:hover {
     display: block;
@@ -307,21 +317,21 @@ br {
 #fourMathead1{
     width: 56px;
     height: 60px;
-    margin-left: 43.75%;
-    float: left;
+    margin-left: 43%;
+    flex: left;
     background-image: url(../image/Layer46.png);
 }
 #fiveMathead1{
     width: 72px;
     height: 60px;
-    margin-left: 42%;
+    margin-left: 40%;
     float: left;
     background-image: url(../image/Layer43.png);
 }
 #sixMathead1{
     width: 79px;
     height: 60px;
-    margin-left: 40%;
+    margin-left: 39%;
     float: left;
     background-image: url(../image/Layer45.png);
 }
@@ -422,13 +432,13 @@ br {
     text-align: center;
 }
 #threeFooter4{
-     padding-top: 20px;
-     font-family: 'Raleway', sans-serif;
-     font-size: 14px;
-     font-weight: normal;
-     color: darkgrey;
-     text-align: center;
- }
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: darkgrey;
+    text-align: center;
+}
 
 
 
@@ -493,7 +503,7 @@ br {
 #oneTeam5, #twoTeam5, #threeTeam5, #fourTeam5 {
     margin-top: 30px;
     text-align: left;
-  }
+}
 .Facebook {
     float: left;
 }
@@ -643,7 +653,7 @@ br {
 
 }
 #twoFooter4{
-padding-top: 20px;
-padding-left: 34%;
+    padding-top: 20px;
+    padding-left: 34%;
     text-align: center;
 }
