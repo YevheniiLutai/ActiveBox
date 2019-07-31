@@ -70,18 +70,6 @@ a {
     height: 500px;
 }
 
-.part5{
-    background-color: white;
-    background-size: cover;
-    height: 300px;
-    text-align: center;
-}
-
-.footer1{
-    background-color: white;
-    background-size: cover;
-    height: 340px;
-}
 .banner {
     display: flex;
     align-items: center;
@@ -89,13 +77,13 @@ a {
     height: 750px;
 }
 
-
 body {
     display: block;
     margin: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
 }
+
 .text1 {
     text-transform: uppercase;
     font-size: 65px;
@@ -110,9 +98,11 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 br {
     margin-bottom: 71px;
 }
+
 .text2 {
     display: block;
     font-size: 22px;
@@ -151,7 +141,6 @@ br {
 
 }
 
-
 #one, #two, #three, #four, #five, #six, #seven, #eight {
     width: 24.85%;
     background-size: cover;
@@ -165,64 +154,79 @@ br {
 
     background-image: url(../image/Layer35.png);
 }
+
 #one:hover {
     display: block;
     float: left;
     background-image: url(../image/Layer65.png);
 }
+
 #two{
     float: left;
     background-image: url(../image/Layer36.png);
 }
+
 #two:hover{
     float: left;
     background-image: url(../image/Layer76.png);
 }
+
 #three{
     float: left;
     background-image: url(../image/Layer37.png);
 }
+
 #three:hover{
     float: left;
     background-image: url(../image/Layer77.png);
 }
+
 #four{
     float: left;
     background-image: url(../image/Layer38.png);
 }
+
 #four:hover{
     float: left;
     background-image: url(../image/Layer68.png);
 }
+
 #five{
     float: left;
     background-image: url(../image/Layer39.png);
 }
+
 #five:hover{
     float: left;
     background-image: url(../image/Layer69.png);
 }
+
 #six{
     float: left;
     background-image: url(../image/Layer40.png);
 }
+
 #six:hover{
     float: left;
     background-image: url(../image/Layer70.png);
 
 }
+
 #seven{
     float: left;
     background-image: url(../image/Layer41.png);
 }
+
 #seven:hover{
     float: left;
     background-image: url(../image/Layer71.png);
 }
+
 #eight{
     float: left;
     background-image: url(../image/Layer42.png);
 }
+
 #eight:hover{
     float: left;
     background-image: url(../image/Layer62.png);
@@ -236,6 +240,7 @@ br {
 #five, #six, #seven, #eight {
     margin-bottom: 1px;
 }
+
 #second_block{
     display: none;
     width: 468px;
@@ -245,6 +250,7 @@ br {
     font-weight: bold;
     color: white;
 }
+
 #third_block {
     display: none;
     width: 468px;
@@ -254,6 +260,7 @@ br {
     font-weight: normal;
     color: white;
 }
+
 .part1 {
     background-color: white;
     background-size: cover;
@@ -261,6 +268,7 @@ br {
 
     text-align: center;
 }
+
 #oneMathead, #twoMathead, #threeMathead, #fourMathead, #fiveMathead, #sixMathead{
     width: 20.5%;
 
@@ -268,28 +276,34 @@ br {
     display: block;
 
 }
+
 #oneMathead{
     margin-left: 18%;
     float: left;
 
 }
+
 #twoMathead{
     float: left;
 
 }
+
 #threeMathead{
     float: left;
 
 }
+
 #fourMathead{
     margin-left: 18%;
     float: left;
 
 }
+
 #fiveMathead{
     float: left;
 
 }
+
 #sixMathead{
     float: left;
 
@@ -308,6 +322,7 @@ br {
     float: left;
     background-image: url(../image/Layer48.png);
 }
+
 #twoMathead1{
     width: 73px;
     height: 60px;
@@ -316,6 +331,7 @@ br {
     background-image: url(../image/Layer44.png);
     text-align: center;
 }
+
 #threeMathead1{
     width: 41px;
     height: 60px;
@@ -324,6 +340,7 @@ br {
     background-image: url(../image/Layer47.png);
 
 }
+
 #fourMathead1{
     width: 56px;
     height: 60px;
@@ -331,6 +348,7 @@ br {
     flex: left;
     background-image: url(../image/Layer46.png);
 }
+
 #fiveMathead1{
     width: 72px;
     height: 60px;
@@ -338,6 +356,7 @@ br {
     float: left;
     background-image: url(../image/Layer43.png);
 }
+
 #sixMathead1{
     width: 79px;
     height: 60px;
@@ -380,86 +399,21 @@ br {
     margin-left: 20%;
 
 }
+
 #twoTeam {
     float: left;
     margin-left: 25px;
 }
+
 #threeTeam {
     float: left;
     margin-left: 25px;
 }
+
 #fourTeam {
     float: left;
     margin-left: 25px;
 }
-
-
-#oneFooter2{
-    margin-left: 16%;
-    height: 240px;
-    width: 23%;
-    float: left;
-
-}
-#oneFooter3{
-    margin-top: 70px;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-}
-#oneFooter4{
-    margin-top: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
-    color: darkgrey;
-    text-align: center;
-}
-#twoFooter3{
-    margin-top: 70px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#twoFooter2{
-    float: left;
-    height: 240px;
-    width: 23%;
-}
-#threeFooter2{
-    float: left;
-    height: 240px;
-    width: 23%;
-
-}
-#threeFooter3{
-    margin-top: 70px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-}
-#threeFooter4{
-    padding-top: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
-    color: darkgray;
-    text-align: center;
-}
-
-
-
-
 
 #oneTeam1{
     width: 270px;
@@ -468,6 +422,7 @@ br {
     float: left;
     background-image: url(../image/Layer30.png);
 }
+
 #twoTeam1 {
     width: 270px;
     height: 270px;
@@ -475,6 +430,7 @@ br {
     float: left;
     background-image: url(../image/Layer31.png);
 }
+
 #threeTeam1 {
     width: 270px;
     height: 270px;
@@ -482,6 +438,7 @@ br {
     float: left;
     background-image: url(../image/Layer32.png);
 }
+
 #fourTeam1 {
     width: 270px;
     height: 270px;
@@ -521,6 +478,7 @@ br {
     margin-top: 30px;
     text-align: left;
 }
+
 .Facebook {
     float: left;
 }
@@ -536,7 +494,6 @@ br {
 }
 
 .button2{
-
     background: white; /* Цвет фона */
     color: white;
     border: 1px solid #6c7279;
@@ -547,20 +504,22 @@ br {
 
 #oneClients, #twoClients{
 
-
 }
+
 #oneClients{
     background-image: url(../image/Layer19.png);
     width: 49%;
     height: 500px;
     float: left;
 }
+
 #twoClients {
     float: left;
     width: 51%;
     height: 500px;
     background-color: #53354a;
 }
+
 #oneClients1{
     margin-left: 9%;
     margin-top: 12%;
@@ -581,9 +540,133 @@ br {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
-#footer2{
-    height: 240px;
+
+.download{
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.download_text1{
+    margin-top: 100px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    line-height: 21px;
+    color: #2d3033;
+    font-weight: 300;
+}
+.download_text2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2d3033;
+    font-weight: 700;
+}
+
+.download_button{
+
+    padding-top: 30px;
+    margin-bottom: 100px;
+
+}
+.button_download {
+    -moz-border-radius:  3px; /* Firefox */
+    -webkit-border-radius:  3px; /* Safari 4 */
+    border-radius:  3px; /* IE 9, Safari 5, Chrome */
+    background: #e84545; /* Цвет фона */
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid #e84545;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px; /* Размер текста */
+    padding: 13px 85px;
+    vertical-align:middle
+}
+.footer1{
+    background-color: white;
+    background-size: cover;
+
+}
+
+.footer2{
+    padding-top: 70px;
+    height: 270px;
     background-color: #3a3e64;
+}
+
+.address{
+    padding-top: 70px;
+    margin-left: 16%;
+    width: 23%;
+    float: left;
+
+}
+.address2{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.address3{
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: darkgrey;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.share{
+    float: left;
+    width: 23%;
+}
+
+.share2{
+    margin-top: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.share_buttons{
+    padding-top: 20px;
+    padding-left: 34%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.about{
+    float: left;
+    width: 23%;
+
+}
+.about2{
+    margin-top: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about_text{
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: darkgray;
+    text-align: center;
+    padding-bottom: 100px;
 }
 
 .cr{
@@ -611,44 +694,6 @@ br {
 .heart{
     color: #e84545;
 }
-#oneDownload{
-    text-align: center;
-    text-transform: capitalize;
-    margin-top: 100px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 28px;
-    line-height: 21px;
-    color: #2d3033;
-    font-weight: 300;
-}
-#twoDownload{
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 21px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px;
-    line-height: 21px;
-    color: #2d3033;
-    font-weight: 700;
-}
-
-#threeDownload{
-
-    margin-top: 20px;
-
-}
-.button3 {
-    -moz-border-radius:  3px; /* Firefox */
-    -webkit-border-radius:  3px; /* Safari 4 */
-    border-radius:  3px; /* IE 9, Safari 5, Chrome */
-    background: #e84545; /* Цвет фона */
-    margin-top: 35px;
-    color: white;
-    border: 2px solid #e84545;
-    font-family: 'Raleway', sans-serif;
-    font-size: 13px; /* Размер текста */
-    padding: 13px 85px;
-}
 
 #Facebook {
     float: left;
@@ -674,9 +719,4 @@ br {
     float: left;
     margin-left: 7px;
 
-}
-#twoFooter4{
-    padding-top: 20px;
-    padding-left: 34%;
-    text-align: center;
 }
