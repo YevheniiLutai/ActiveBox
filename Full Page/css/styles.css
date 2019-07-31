@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i&display=swap');
+body {
+    display: block;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: gainsboro;
+}
+
+br {
+    margin-bottom: 71px;
+}
 .header2 {
     background-image: url(../image/Layer34.png);
     background-size: cover;
@@ -9,33 +24,17 @@
 
 }
 
-.part2 {
-
-    background-size: cover;
-    height: 705px;
-
-}
-.part3 {
-    background-color: white;
-    background-size: cover;
-    height: 780px;
-    text-align: center;
-
-}
-#ActiveBox{
+.ActiveBox{
     position:absolute;
     left:18.5%;
     top:40px;"
 }
-#Line{
+.Line{
     position:absolute;
     left:18.5%;
     top: 100px;
 }
-a {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
-    color: gainsboro;
-}
+
 .menu{
     height: 40px;
     padding-top: 44px;
@@ -73,13 +72,6 @@ a {
     height: 750px;
 }
 
-body {
-    display: block;
-    margin: 0px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-}
-
 .text1 {
     text-transform: uppercase;
     font-size: 65px;
@@ -93,10 +85,6 @@ body {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-br {
-    margin-bottom: 71px;
 }
 
 .text2 {
@@ -137,110 +125,7 @@ br {
 
 }
 
-#one, #two, #three, #four, #five, #six, #seven, #eight {
-    width: 24.85%;
-    background-size: cover;
-    height: 350px;
-
-    display: block;
-}
-
-#one{
-    float: left;
-
-    background-image: url(../image/Layer35.png);
-}
-
-#one:hover {
-    display: block;
-    float: left;
-    background-image: url(../image/Layer65.png);
-}
-
-#two{
-    float: left;
-    background-image: url(../image/Layer36.png);
-}
-
-#two:hover{
-    float: left;
-    background-image: url(../image/Layer76.png);
-}
-
-#three{
-    float: left;
-    background-image: url(../image/Layer37.png);
-}
-
-#three:hover{
-    float: left;
-    background-image: url(../image/Layer77.png);
-}
-
-#four{
-    float: left;
-    background-image: url(../image/Layer38.png);
-}
-
-#four:hover{
-    float: left;
-    background-image: url(../image/Layer68.png);
-}
-
-#five{
-    float: left;
-    background-image: url(../image/Layer39.png);
-}
-
-#five:hover{
-    float: left;
-    background-image: url(../image/Layer69.png);
-}
-
-#six{
-    float: left;
-    background-image: url(../image/Layer40.png);
-}
-
-#six:hover{
-    float: left;
-    background-image: url(../image/Layer70.png);
-
-}
-
-#seven{
-    float: left;
-    background-image: url(../image/Layer41.png);
-}
-
-#seven:hover{
-    float: left;
-    background-image: url(../image/Layer71.png);
-}
-
-#eight{
-    float: left;
-    background-image: url(../image/Layer42.png);
-}
-
-#eight:hover{
-    float: left;
-    background-image: url(../image/Layer62.png);
-
-}
-
-#one, #two, #three, #four, #five, #six, #seven, #eight  {
-    margin-left: 1px;
-    margin-bottom: 1px;
-
-}
-
-#five, #six, #seven, #eight {
-    margin-bottom: 1px;
-
-}
-
-#second_block{
+/*#second_block{
     display: none;
     width: 468px;
     height: 350px;
@@ -260,9 +145,9 @@ br {
     font-weight: normal;
     color: white;
 
-}
+}*/
 
-.part1 {
+.features {
     background-color: white;
     background-size: cover;
     height: 800px;
@@ -270,52 +155,52 @@ br {
 
 }
 
-#oneMathead, #twoMathead, #threeMathead, #fourMathead, #fiveMathead, #sixMathead{
+.features_1, .features_2, .features_3, .features_4, .features_5, .features_6 {
     width: 20.5%;
     height: 345px;
     display: block;
 
 }
 
-#oneMathead{
+.features_1{
     margin-left: 18%;
     float: left;
 
 }
 
-#twoMathead{
+.features_2{
     float: left;
 
 }
 
-#threeMathead{
+.features_3{
     float: left;
 
 }
 
-#fourMathead{
+.features_4{
     margin-left: 18%;
     float: left;
 
 }
 
-#fiveMathead{
+.features_5{
     float: left;
 
 }
 
-#sixMathead{
+.features_6{
     float: left;
 
 }
 
-#oneMathead1, #twoMathead1, #threeMathead1, #fourMathead1, #fiveMathead1, #sixMathead1 {
+.features_photo_1, .features_photo_2, .features_photo_3, .features_photo_4, .features_photo_5, .features_photo_6 {
     margin-top: 26%;
     margin-left: 130px;
 
 }
 
-#oneMathead1{
+.features_photo_1{
     width: 60px;
     height: 60px;
     margin-bottom: 5px;
@@ -324,7 +209,7 @@ br {
     background-image: url(../image/Layer48.png);
 }
 
-#twoMathead1{
+.features_photo_2{
     width: 73px;
     height: 60px;
     margin-left: 41%;
@@ -334,7 +219,7 @@ br {
 
 }
 
-#threeMathead1{
+.features_photo_3{
     width: 41px;
     height: 60px;
     margin-left: 45%;
@@ -343,7 +228,7 @@ br {
 
 }
 
-#fourMathead1{
+.features_photo_4{
     width: 56px;
     height: 60px;
     margin-left: 43%;
@@ -352,7 +237,7 @@ br {
 
 }
 
-#fiveMathead1{
+.features_photo_5{
     width: 72px;
     height: 60px;
     margin-left: 40%;
@@ -361,7 +246,7 @@ br {
 
 }
 
-#sixMathead1{
+.features_photo_6{
     width: 79px;
     height: 60px;
     margin-left: 39%;
@@ -370,7 +255,7 @@ br {
 
 }
 
-#oneMathead2, #twoMathead2, #threeMathead2, #fourMathead2, #fiveMathead2, #sixMathead2 {
+.features_name{
     text-transform: uppercase;
     font-size: 14px;
     color: #2d3033;
@@ -381,7 +266,7 @@ br {
 
 }
 
-#oneMathead3, #twoMathead3, #threeMathead3, #fourMathead3, #fiveMathead3, #sixMathead3 {
+.features_text {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -392,38 +277,148 @@ br {
 
 }
 
-#oneTeam, #twoTeam, #threeTeam, #fourTeam {
+.works {
+
+    background-size: cover;
+    height: 705px;
+
+}
+
+.work_1, .work_2, .work_3, .work_4, .work_5, .work_6, .work_7, .work_8 {
+    width: 24.85%;
+    background-size: cover;
+    height: 350px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.work_1{
+    float: left;
+
+    background-image: url(../image/Layer35.png);
+}
+
+.work_1:hover {
+    display: block;
+    float: left;
+    background-image: url(../image/Layer65.png);
+}
+
+.work_2{
+    float: left;
+    background-image: url(../image/Layer36.png);
+}
+
+.work_2:hover{
+    float: left;
+    background-image: url(../image/Layer76.png);
+}
+
+.work_3{
+    float: left;
+    background-image: url(../image/Layer37.png);
+}
+
+.work_3:hover{
+    float: left;
+    background-image: url(../image/Layer77.png);
+}
+
+.work_4{
+    float: left;
+    background-image: url(../image/Layer38.png);
+}
+
+.work_4:hover{
+    float: left;
+    background-image: url(../image/Layer68.png);
+}
+
+.work_5{
+    float: left;
+    background-image: url(../image/Layer39.png);
+}
+
+.work_5:hover{
+    float: left;
+    background-image: url(../image/Layer69.png);
+}
+
+.work_6{
+    float: left;
+    background-image: url(../image/Layer40.png);
+}
+
+.work_6:hover{
+    float: left;
+    background-image: url(../image/Layer70.png);
+
+}
+
+.work_7{
+    float: left;
+    background-image: url(../image/Layer41.png);
+}
+
+.work_7:hover{
+    float: left;
+    background-image: url(../image/Layer71.png);
+}
+
+.work_8{
+    float: left;
+    background-image: url(../image/Layer42.png);
+}
+
+.work_8:hover{
+    float: left;
+    background-image: url(../image/Layer62.png);
+
+}
+
+.work_5, .work_6, .work_7, .work_8 {
+    margin-bottom: 1px;
+
+}
+
+.team {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+.block_1_team, .block_2_team, .block_3_team, .block_4_team {
     width: 15%;
-    height: 580px;
     display: block;
 
 }
 
-#oneTeam {
-    float: left;
+.block_1_team {
+    flex: 1;
     margin-left: 20%;
 
 }
 
-#twoTeam {
-    float: left;
-    margin-left: 25px;
+.block_2_team {
+    flex: 1;
+
 
 }
 
-#threeTeam {
-    float: left;
-    margin-left: 25px;
+.block_3_team {
+    flex: 1;
+
 
 }
 
-#fourTeam {
-    float: left;
-    margin-left: 25px;
+.block_4_team {
+    flex: 1;
+
 
 }
 
-#oneTeam1{
+.photo_1_team{
     width: 270px;
     height: 270px;
     margin-top: 100px;
@@ -432,7 +427,7 @@ br {
 
 }
 
-#twoTeam1 {
+.photo_2_team {
     width: 270px;
     height: 270px;
     margin-top: 100px;
@@ -441,7 +436,7 @@ br {
 
 }
 
-#threeTeam1 {
+.photo_3_team {
     width: 270px;
     height: 270px;
     margin-top: 100px;
@@ -450,7 +445,7 @@ br {
 
 }
 
-#fourTeam1 {
+.photo_4_team {
     width: 270px;
     height: 270px;
     margin-top: 100px;
@@ -459,7 +454,7 @@ br {
 
 }
 
-#oneTeam2, #twoTeam2, #threeTeam2, #fourTeam2 {
+.name_team {
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color: #2d3033;
@@ -468,7 +463,7 @@ br {
 
 }
 
-#oneTeam3, #twoTeam3, #threeTeam3, #fourTeam3 {
+.position_team {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
@@ -478,7 +473,7 @@ br {
 
 }
 
-#oneTeam4, #twoTeam4, #threeTeam4, #fourTeam4 {
+.text_team {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -488,10 +483,10 @@ br {
 
 }
 
-#oneTeam5, #twoTeam5, #threeTeam5, #fourTeam5 {
+.button_team {
     margin-top: 30px;
     text-align: left;
-
+    padding-bottom: 140px;
 }
 
 .Facebook {
@@ -511,17 +506,13 @@ br {
 
 }
 
-.button2{
+.button_for_team{
     background: white; /* Цвет фона */
     color: white;
     border: 1px solid #6c7279;
     padding: 10px 10px;
     float: left;
     margin-left: 2px;
-}
-
-#oneClients, #twoClients{
-
 }
 
 .comment{
@@ -723,21 +714,7 @@ br {
     color: #e84545;
 }
 
-#Facebook {
-    float: left;
-}
-
-#Twitter{
-    float: left;
-    margin-left: 2px;
-}
-
-#Linkedin{
-    float: left;
-    margin-left: 2px;
-}
-
-.button4{
+.button_for_share{
     background: #3a3e64; /* Цвет фона */
     color: #3a3e64;
     border: 2px solid white;
