@@ -39,28 +39,28 @@ a {
 .menu{
     height: 40px;
     padding-top: 44px;
-    color: gainsboro;
-    font-family: 'Raleway', sans-serif;
     font-size: 13px;
-    font-weight: bold;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
-#menu1{
+.menu1{
     float: left;
     margin-left: 50%;
 }
-#menu2{
+.menu2{
     float: left;
     margin-left: 2.8%;
 }
-#menu3{
+.menu3{
     float: left;
     margin-left: 2.8%;
 }
-#menu4{
+.menu4{
     float: left;
     margin-left: 2.8%;
 }
-#menu5{
+.menu5{
     float: left;
     margin-left: 2.8%;
 }
@@ -97,6 +97,7 @@ body {
     font-weight: 400;
 }
 .text1 {
+    text-transform: uppercase;
     font-size: 65px;
     line-height: 71px;
     color: #ffffff;
@@ -346,21 +347,25 @@ br {
 }
 
 #oneMathead2, #twoMathead2, #threeMathead2, #fourMathead2, #fiveMathead2, #sixMathead2 {
-    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
+    color: #2d3033;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
     margin-top: 215px;
-    text-align: center
+
 }
 
 #oneMathead3, #twoMathead3, #threeMathead3, #fourMathead3, #fiveMathead3, #sixMathead3 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: normal;
+    line-height: 21px;
     color: #6c7279;
+    text-align: center;
     margin-top: 35px;
     margin-left: auto;
-    text-align: center;
+
 }
 
 #oneTeam, #twoTeam, #threeTeam, #fourTeam {
@@ -398,17 +403,18 @@ br {
 }
 #oneFooter3{
     margin-top: 70px;
-    font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: bold;
-    color: white;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 #oneFooter4{
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: normal;
+    line-height: 23px;
     color: darkgrey;
     text-align: center;
 }
@@ -416,9 +422,10 @@ br {
     margin-top: 70px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: bold;
-    color: white;
+    color: #ffffff;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #twoFooter2{
@@ -436,16 +443,17 @@ br {
     margin-top: 70px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: bold;
-    color: white;
+    color: #ffffff;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 #threeFooter4{
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: normal;
-    color: darkgrey;
+    line-height: 23px;
+    color: darkgray;
     text-align: center;
 }
 
@@ -483,19 +491,19 @@ br {
 }
 
 #oneTeam2, #twoTeam2, #threeTeam2, #fourTeam2 {
+
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    font-weight: normal;
-    color: #333333;
+    color: #2d3033;
     margin-top: 400px;
     text-align: left;
 }
 
 #oneTeam3, #twoTeam3, #threeTeam3, #fourTeam3 {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
-    font-weight: normal;
-    color: #ff6666;
+    color: #e84545;
     margin-top: 18px;
     text-align: left;
 }
@@ -503,7 +511,7 @@ br {
 #oneTeam4, #twoTeam4, #threeTeam4, #fourTeam4 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    font-weight: normal;
+    line-height: 21px;
     color: #6c7279;
     margin-top: 30px;
     text-align: left;
@@ -566,58 +574,62 @@ br {
 #twoClients1 {
     margin-top: 3%;
     margin-left: 9%;
-    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-size: 13px;
-    font-weight: bold;
-    color: white;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 #footer2{
     height: 240px;
     background-color: #3a3e64;
 }
 
-#footer3{
-    padding-left: 40%;
-    height: 100px;
+.cr{
     background-color: #313454;
-
-}
-#footertext1, #footertext2 {
-
-    display:inline-block;
-}
-#footertext1 {
-    padding-top: 25px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    color: #808080;
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-#footertext2{
+
+.cr_text {
+
+    font-size: 14px;
+    line-height: 23px;
+    color: #808080;
+    font-family: "Raleway", sans-serif;
+}
+.cr_text2{
 
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     color: white;
 
 }
-
+.heart{
+    color: #e84545;
+}
 #oneDownload{
     text-align: center;
+    text-transform: capitalize;
     margin-top: 100px;
     font-family: 'Raleway', sans-serif;
     font-size: 28px;
-    font-weight: normal;
+    line-height: 21px;
     color: #2d3033;
+    font-weight: 300;
 }
 #twoDownload{
     text-align: center;
+    text-transform: uppercase;
     margin-top: 21px;
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
-    font-weight: bold;
+    line-height: 21px;
     color: #2d3033;
+    font-weight: 700;
 }
 
 #threeDownload{
