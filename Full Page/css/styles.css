@@ -9,13 +9,25 @@ body {
 }
 
 a {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    text-decoration: none;
     color: gainsboro;
 }
 
 br {
     margin-bottom: 71px;
 }
+hr{
+    border: none;
+    box-shadow: 0px 1px 0px rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0);
+    height: 0.04em;
+}
+.Line{
+     padding-top: 0.43em;
+     padding-left: 18.5%;
+     padding-right: 19.4%;
+}
+
 .header2 {
     background-image: url(../image/Layer34.png);
     background-size: cover;
@@ -28,11 +40,6 @@ br {
     position:absolute;
     left:18.5%;
     top:40px;"
-}
-.Line{
-    position:absolute;
-    left:18.5%;
-    top: 100px;
 }
 
 .menu{
