@@ -43,6 +43,7 @@ a {
     color: #ffffff;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
 .menu1{
     float: left;
@@ -63,11 +64,6 @@ a {
 .menu5{
     float: left;
     margin-left: 2.8%;
-}
-.part4{
-    background-color: white;
-    background-size: cover;
-    height: 500px;
 }
 
 .banner {
@@ -230,15 +226,18 @@ br {
 #eight:hover{
     float: left;
     background-image: url(../image/Layer62.png);
+
 }
 
 #one, #two, #three, #four, #five, #six, #seven, #eight  {
     margin-left: 1px;
     margin-bottom: 1px;
+
 }
 
 #five, #six, #seven, #eight {
     margin-bottom: 1px;
+
 }
 
 #second_block{
@@ -249,6 +248,7 @@ br {
     font-size: 14px;
     font-weight: bold;
     color: white;
+
 }
 
 #third_block {
@@ -259,19 +259,19 @@ br {
     font-size: 14px;
     font-weight: normal;
     color: white;
+
 }
 
 .part1 {
     background-color: white;
     background-size: cover;
     height: 800px;
-
     text-align: center;
+
 }
 
 #oneMathead, #twoMathead, #threeMathead, #fourMathead, #fiveMathead, #sixMathead{
     width: 20.5%;
-
     height: 345px;
     display: block;
 
@@ -312,6 +312,7 @@ br {
 #oneMathead1, #twoMathead1, #threeMathead1, #fourMathead1, #fiveMathead1, #sixMathead1 {
     margin-top: 26%;
     margin-left: 130px;
+
 }
 
 #oneMathead1{
@@ -330,6 +331,7 @@ br {
     float: left;
     background-image: url(../image/Layer44.png);
     text-align: center;
+
 }
 
 #threeMathead1{
@@ -345,8 +347,9 @@ br {
     width: 56px;
     height: 60px;
     margin-left: 43%;
-    flex: left;
+    float: left;
     background-image: url(../image/Layer46.png);
+
 }
 
 #fiveMathead1{
@@ -355,6 +358,7 @@ br {
     margin-left: 40%;
     float: left;
     background-image: url(../image/Layer43.png);
+
 }
 
 #sixMathead1{
@@ -363,6 +367,7 @@ br {
     margin-left: 39%;
     float: left;
     background-image: url(../image/Layer45.png);
+
 }
 
 #oneMathead2, #twoMathead2, #threeMathead2, #fourMathead2, #fiveMathead2, #sixMathead2 {
@@ -403,16 +408,19 @@ br {
 #twoTeam {
     float: left;
     margin-left: 25px;
+
 }
 
 #threeTeam {
     float: left;
     margin-left: 25px;
+
 }
 
 #fourTeam {
     float: left;
     margin-left: 25px;
+
 }
 
 #oneTeam1{
@@ -421,6 +429,7 @@ br {
     margin-top: 100px;
     float: left;
     background-image: url(../image/Layer30.png);
+
 }
 
 #twoTeam1 {
@@ -429,6 +438,7 @@ br {
     margin-top: 100px;
     float: left;
     background-image: url(../image/Layer31.png);
+
 }
 
 #threeTeam1 {
@@ -437,6 +447,7 @@ br {
     margin-top: 100px;
     float: left;
     background-image: url(../image/Layer32.png);
+
 }
 
 #fourTeam1 {
@@ -445,15 +456,16 @@ br {
     margin-top: 100px;
     float: left;
     background-image: url(../image/Layer33.png);
+
 }
 
 #oneTeam2, #twoTeam2, #threeTeam2, #fourTeam2 {
-
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color: #2d3033;
     margin-top: 400px;
     text-align: left;
+
 }
 
 #oneTeam3, #twoTeam3, #threeTeam3, #fourTeam3 {
@@ -463,6 +475,7 @@ br {
     color: #e84545;
     margin-top: 18px;
     text-align: left;
+
 }
 
 #oneTeam4, #twoTeam4, #threeTeam4, #fourTeam4 {
@@ -472,25 +485,30 @@ br {
     color: #6c7279;
     margin-top: 30px;
     text-align: left;
+
 }
 
 #oneTeam5, #twoTeam5, #threeTeam5, #fourTeam5 {
     margin-top: 30px;
     text-align: left;
+
 }
 
 .Facebook {
     float: left;
+
 }
 
 .Twitter{
     float: left;
     margin-left: 2px;
+
 }
 
 .Linkedin{
     float: left;
     margin-left: 2px;
+
 }
 
 .button2{
@@ -506,21 +524,25 @@ br {
 
 }
 
-#oneClients{
+.comment{
+    background-size: cover;
+    display: flex;
+
+}
+
+.first_comment_photo{
     background-image: url(../image/Layer19.png);
     width: 49%;
-    height: 500px;
-    float: left;
+    flex: 1;
 }
 
-#twoClients {
-    float: left;
+.first_comment_block {
     width: 51%;
-    height: 500px;
     background-color: #53354a;
+
 }
 
-#oneClients1{
+.first_comment_text{
     margin-left: 9%;
     margin-top: 12%;
     font-size: 36px;
@@ -529,8 +551,10 @@ br {
     font-family: 'Cardo', serif;
     font-weight: 400;
     font-style: italic;
+
 }
-#twoClients1 {
+
+.first_comment_name {
     margin-top: 3%;
     margin-left: 9%;
     text-transform: uppercase;
@@ -539,6 +563,7 @@ br {
     color: #ffffff;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    margin-bottom: 170px;
 }
 
 .download{
@@ -556,6 +581,7 @@ br {
     color: #2d3033;
     font-weight: 300;
 }
+
 .download_text2{
     text-align: center;
     text-transform: uppercase;
@@ -568,11 +594,11 @@ br {
 }
 
 .download_button{
-
     padding-top: 30px;
     margin-bottom: 100px;
 
 }
+
 .button_download {
     -moz-border-radius:  3px; /* Firefox */
     -webkit-border-radius:  3px; /* Safari 4 */
@@ -586,25 +612,22 @@ br {
     padding: 13px 85px;
     vertical-align:middle
 }
-.footer1{
-    background-color: white;
-    background-size: cover;
-
-}
 
 .footer2{
     padding-top: 70px;
-    height: 270px;
+    padding-bottom: 100px;
     background-color: #3a3e64;
 }
 
 .address{
-    padding-top: 70px;
+    margin-top: 70px;
     margin-left: 16%;
     width: 23%;
     float: left;
+    background-color: #3a3e64;
 
 }
+
 .address2{
     font-size: 14px;
     color: #ffffff;
@@ -613,6 +636,7 @@ br {
     text-align: center;
     text-transform: uppercase;
 }
+
 .address3{
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
@@ -620,7 +644,7 @@ br {
     line-height: 23px;
     color: darkgrey;
     text-align: center;
-    padding-bottom: 100px;
+
 }
 
 .share{
@@ -642,7 +666,7 @@ br {
     padding-top: 20px;
     padding-left: 34%;
     text-align: center;
-    padding-bottom: 100px;
+
 }
 
 .about{
@@ -666,16 +690,19 @@ br {
     line-height: 23px;
     color: darkgray;
     text-align: center;
-    padding-bottom: 100px;
 }
 
 .cr{
     background-color: #313454;
-    text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
-}
+    background-size: cover;
+    text-align: center;
 
+}
+.footer4{
+    text-align: center;
+}
 .cr_text {
 
     font-size: 14px;
@@ -688,10 +715,11 @@ br {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: white;
+    color: #ffffff;
 
 }
 .heart{
+    text-align: center;
     color: #e84545;
 }
 
@@ -709,9 +737,7 @@ br {
     margin-left: 2px;
 }
 
-
 .button4{
-
     background: #3a3e64; /* Цвет фона */
     color: #3a3e64;
     border: 2px solid white;
@@ -719,4 +745,8 @@ br {
     float: left;
     margin-left: 7px;
 
+}
+.footer5{
+    background-color: #3a3e64;
+    padding-top: 100px;
 }
