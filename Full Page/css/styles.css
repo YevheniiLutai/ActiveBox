@@ -6,6 +6,7 @@ body {
     margin: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    background-color: #ffffff;
 }
 
 a {
@@ -16,13 +17,20 @@ a {
 br {
     margin-bottom: 71px;
 }
+
 hr{
     border: none;
     box-shadow: 0px 1px 0px rgba(255,255,255,0.15);
     background-color: rgba(255,255,255,0);
     height: 0.3em;
 }
-.Line{
+
+.img_button {
+    width: 12px;
+    height: 12px;
+
+}
+.header_line{
      padding-top: 0.43em;
      padding-left: 18.5%;
      padding-right: 19.4%;
@@ -31,7 +39,6 @@ hr{
 .header2 {
     background-image: url(../image/Layer34.png);
     background-size: cover;
-    height: 750px;
     text-align: center;
 
 }
@@ -39,7 +46,7 @@ hr{
 .ActiveBox{
     position:absolute;
     left:18.5%;
-    top:40px;"
+    top:40px;
 }
 
 .menu{
@@ -50,25 +57,12 @@ hr{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    display: flex;
 }
 .menu1{
-    float: left;
     margin-left: 50%;
 }
-.menu2{
-    float: left;
-    margin-left: 2.8%;
-}
-.menu3{
-    float: left;
-    margin-left: 2.8%;
-}
-.menu4{
-    float: left;
-    margin-left: 2.8%;
-}
-.menu5{
-    float: left;
+.menu2_3_4_5{
     margin-left: 2.8%;
 }
 
@@ -76,7 +70,6 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 750px;
 }
 
 .text1 {
@@ -88,10 +81,12 @@ hr{
     font-weight: 700;
     text-align: center;
     display: block;
+    padding-top: 120px;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+
 }
 
 .text2 {
@@ -114,22 +109,13 @@ hr{
     border-radius:  3px; /* IE 9, Safari 5, Chrome */
     background: #e84545; /* Цвет фона */
     margin-top: 35px;
-    color: white;
+    color: #ffffff;
     border: 2px solid #e84545;
     font-family: 'Raleway', sans-serif;
     font-size: 13px; /* Размер текста */
     padding: 13px 45px;
-    vertical-align:middle
-}
-
-.head{
-    margin: auto;
-    position: relative;
-    width: 1100px;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 0;
-
+    vertical-align:middle;
+    margin-bottom: 200px;
 }
 
 /*#second_block{
@@ -154,51 +140,37 @@ hr{
 
 }*/
 
-.features {
-    background-color: white;
+.features_col_1 {
     background-size: cover;
-    height: 800px;
     text-align: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.features_col_2 {
+    margin-top: 10px;
+    background-size: cover;
+    margin-bottom: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-.features_1, .features_2, .features_3, .features_4, .features_5, .features_6 {
-    width: 20.5%;
-    height: 345px;
-    display: block;
+.features_1_4{
+    width: 20%;
 
 }
 
-.features_1{
-    margin-left: 18%;
-    float: left;
+.features_2_3_5_6{
 
-}
-
-.features_2{
-    float: left;
-
-}
-
-.features_3{
-    float: left;
-
-}
-
-.features_4{
-    margin-left: 18%;
-    float: left;
-
-}
-
-.features_5{
-    float: left;
-
-}
-
-.features_6{
-    float: left;
-
+    width: 20%;
+    margin-left: 30px;
 }
 
 .features_photo_1, .features_photo_2, .features_photo_3, .features_photo_4, .features_photo_5, .features_photo_6 {
@@ -212,7 +184,6 @@ hr{
     height: 60px;
     margin-bottom: 5px;
     margin-left: 44%;
-    float: left;
     background-image: url(../image/Layer48.png);
 }
 
@@ -220,7 +191,6 @@ hr{
     width: 73px;
     height: 60px;
     margin-left: 41%;
-    float: left;
     background-image: url(../image/Layer44.png);
     text-align: center;
 
@@ -230,7 +200,6 @@ hr{
     width: 41px;
     height: 60px;
     margin-left: 45%;
-    float: left;
     background-image: url(../image/Layer47.png);
 
 }
@@ -239,7 +208,6 @@ hr{
     width: 56px;
     height: 60px;
     margin-left: 43%;
-    float: left;
     background-image: url(../image/Layer46.png);
 
 }
@@ -248,7 +216,6 @@ hr{
     width: 72px;
     height: 60px;
     margin-left: 40%;
-    float: left;
     background-image: url(../image/Layer43.png);
 
 }
@@ -257,135 +224,147 @@ hr{
     width: 79px;
     height: 60px;
     margin-left: 39%;
-    float: left;
     background-image: url(../image/Layer45.png);
 
 }
 
-.features_name{
+.features_name_col_1{
     text-transform: uppercase;
     font-size: 14px;
     color: #2d3033;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     text-align: center;
-    margin-top: 215px;
+    padding-top: 70px;
 
 }
 
-.features_text {
+.features_text_col_1 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 21px;
     color: #6c7279;
     text-align: center;
-    margin-top: 35px;
+    padding-top: 35px;
+    margin-left: auto;
+
+}
+
+.features_name_col_2{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2d3033;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.features_text_col_2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6c7279;
+    text-align: center;
+    padding-top: 35px;
     margin-left: auto;
 
 }
 
 .works {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-size: cover;
-    height: 705px;
+    justify-content: space-between;
 
 }
 
 .work_1, .work_2, .work_3, .work_4, .work_5, .work_6, .work_7, .work_8 {
-    width: 24.85%;
-    background-size: cover;
+    width: 24.95%;
     height: 350px;
-    margin-left: 1px;
     margin-bottom: 1px;
-    display: block;
+
 }
 
 .work_1{
-    float: left;
-
     background-image: url(../image/Layer35.png);
+
 }
 
 .work_1:hover {
-    display: block;
-    float: left;
-    background-image: url(../image/Layer65.png);
+    background: #e84545;
+
 }
 
 .work_2{
-    float: left;
     background-image: url(../image/Layer36.png);
+
 }
 
 .work_2:hover{
-    float: left;
     background-image: url(../image/Layer76.png);
+
 }
 
 .work_3{
-    float: left;
     background-image: url(../image/Layer37.png);
+
 }
 
 .work_3:hover{
-    float: left;
     background-image: url(../image/Layer77.png);
+
 }
 
 .work_4{
-    float: left;
     background-image: url(../image/Layer38.png);
+
 }
 
 .work_4:hover{
-    float: left;
     background-image: url(../image/Layer68.png);
+
 }
 
 .work_5{
-    float: left;
     background-image: url(../image/Layer39.png);
+
 }
 
 .work_5:hover{
-    float: left;
     background-image: url(../image/Layer69.png);
+
 }
 
 .work_6{
-    float: left;
+
     background-image: url(../image/Layer40.png);
 }
 
 .work_6:hover{
-    float: left;
     background-image: url(../image/Layer70.png);
 
 }
 
 .work_7{
-    float: left;
     background-image: url(../image/Layer41.png);
+
 }
 
 .work_7:hover{
-    float: left;
     background-image: url(../image/Layer71.png);
+
 }
 
 .work_8{
-    float: left;
     background-image: url(../image/Layer42.png);
+
 }
 
 .work_8:hover{
-    float: left;
     background-image: url(../image/Layer62.png);
-
-}
-
-.work_5, .work_6, .work_7, .work_8 {
-    margin-bottom: 1px;
 
 }
 
@@ -394,34 +373,16 @@ hr{
     background-size: cover;
     text-align: center;
     display: flex;
+    justify-content: center;
 }
-.block_1_team, .block_2_team, .block_3_team, .block_4_team {
+.block_1_team, .block_2_3_4_team {
     width: 15%;
     display: block;
 
 }
 
-.block_1_team {
-    flex: 1;
-    margin-left: 20%;
-
-}
-
-.block_2_team {
-    flex: 1;
-
-
-}
-
-.block_3_team {
-    flex: 1;
-
-
-}
-
-.block_4_team {
-    flex: 1;
-
+.block_2_3_4_team {
+    margin-left: 40px;
 
 }
 
@@ -429,7 +390,6 @@ hr{
     width: 270px;
     height: 270px;
     margin-top: 100px;
-    float: left;
     background-image: url(../image/Layer30.png);
 
 }
@@ -438,7 +398,6 @@ hr{
     width: 270px;
     height: 270px;
     margin-top: 100px;
-    float: left;
     background-image: url(../image/Layer31.png);
 
 }
@@ -447,7 +406,6 @@ hr{
     width: 270px;
     height: 270px;
     margin-top: 100px;
-    float: left;
     background-image: url(../image/Layer32.png);
 
 }
@@ -456,7 +414,6 @@ hr{
     width: 270px;
     height: 270px;
     margin-top: 100px;
-    float: left;
     background-image: url(../image/Layer33.png);
 
 }
@@ -465,7 +422,7 @@ hr{
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     color: #2d3033;
-    margin-top: 400px;
+    margin-top: 40px;
     text-align: left;
 
 }
@@ -494,28 +451,30 @@ hr{
     margin-top: 30px;
     text-align: left;
     padding-bottom: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
+
 }
 
 .Facebook {
-    float: left;
 
 }
 
 .Twitter{
-    float: left;
     margin-left: 2px;
 
 }
 
 .Linkedin{
-    float: left;
     margin-left: 2px;
 
 }
 
 .button_for_team{
-    background: white; /* Цвет фона */
-    color: white;
+    background: #ffffff;
+    color: #ffffff;
     border: 1px solid #6c7279;
     padding: 10px 10px;
     float: left;
@@ -565,7 +524,7 @@ hr{
 }
 
 .download{
-    background-color: white;
+    background-color: #ffffff;
     background-size: cover;
     text-align: center;
 }
@@ -613,15 +572,14 @@ hr{
 
 .footer2{
     padding-top: 70px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
     background-color: #3a3e64;
+    display: flex;
+    justify-content: center;
 }
 
 .address{
-    margin-top: 70px;
-    margin-left: 16%;
     width: 23%;
-    float: left;
     background-color: #3a3e64;
 
 }
@@ -640,54 +598,58 @@ hr{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 23px;
-    color: darkgrey;
+    color: #a9a9a9;
     text-align: center;
 
 }
 
 .share{
-    float: left;
     width: 23%;
+
 }
 
 .share2{
-    margin-top: 70px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 .share_buttons{
     padding-top: 20px;
     padding-left: 34%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: row;
 
 }
 
 .about{
-    float: left;
-    width: 23%;
+    width: 21.5%;
 
 }
 .about2{
-    margin-top: 70px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #ffffff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+
 }
 .about_text{
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     line-height: 23px;
-    color: darkgray;
+    color: #a9a9a9;
     text-align: center;
+
 }
 
 .cr{
@@ -698,24 +660,29 @@ hr{
     text-align: center;
 
 }
+
 .footer4{
     text-align: center;
+
 }
+
 .cr_text {
 
     font-size: 14px;
     line-height: 23px;
     color: #808080;
     font-family: "Raleway", sans-serif;
-}
-.cr_text2{
 
+}
+
+.cr_text2{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: #ffffff;
 
 }
+
 .heart{
     text-align: center;
     color: #e84545;
@@ -729,8 +696,4 @@ hr{
     float: left;
     margin-left: 7px;
 
-}
-.footer5{
-    background-color: #3a3e64;
-    padding-top: 100px;
 }
