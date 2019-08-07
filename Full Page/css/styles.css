@@ -70,6 +70,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 125px;
 }
 
 .text1 {
@@ -101,6 +102,7 @@ hr{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    padding-bottom: 50px;
 }
 
 .button {
@@ -280,9 +282,30 @@ hr{
     justify-content: space-between;
 
 }
+.work_text_1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 140px;
+    display:none;
+}
+.work_text_2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    display:none;
+    padding-bottom: 173px;
 
+}
 .work_1, .work_2, .work_3, .work_4, .work_5, .work_6, .work_7, .work_8 {
-    width: 24.95%;
+    width: 24.94%;
     height: 350px;
     margin-bottom: 1px;
 
@@ -292,10 +315,10 @@ hr{
     background-image: url(../image/Layer35.png);
 
 }
-
-.work_1:hover {
+.work_1:hover .work_text_1, .work_1:hover .work_text_2 {
+    display: block;
+    opacity: 0.85;
     background: #e84545;
-
 }
 
 .work_2{
@@ -303,8 +326,10 @@ hr{
 
 }
 
-.work_2:hover{
-    background-image: url(../image/Layer76.png);
+.work_2:hover .work_text_1, .work_2:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
@@ -313,8 +338,10 @@ hr{
 
 }
 
-.work_3:hover{
-    background-image: url(../image/Layer77.png);
+.work_3:hover .work_text_1, .work_3:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
@@ -323,8 +350,10 @@ hr{
 
 }
 
-.work_4:hover{
-    background-image: url(../image/Layer68.png);
+.work_4:hover .work_text_1, .work_4:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
@@ -333,18 +362,22 @@ hr{
 
 }
 
-.work_5:hover{
-    background-image: url(../image/Layer69.png);
+.work_5:hover .work_text_1, .work_5:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
 .work_6{
-
     background-image: url(../image/Layer40.png);
+
 }
 
-.work_6:hover{
-    background-image: url(../image/Layer70.png);
+.work_6:hover .work_text_1, .work_6:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
@@ -353,8 +386,10 @@ hr{
 
 }
 
-.work_7:hover{
-    background-image: url(../image/Layer71.png);
+.work_7:hover .work_text_1, .work_7:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
@@ -363,8 +398,10 @@ hr{
 
 }
 
-.work_8:hover{
-    background-image: url(../image/Layer62.png);
+.work_8:hover .work_text_1, .work_8:hover .work_text_2{
+    display: block;
+    opacity: 0.85;
+    background: #e84545;
 
 }
 
