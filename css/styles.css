@@ -154,7 +154,7 @@ a {
     color: white;
 
 }*/
-.features_col {
+.features {
     background-size: cover;
     text-align: center;
     margin-top: 0px;
@@ -178,12 +178,6 @@ a {
     align-items: center;
     width: 30%;
     margin-left: 45px;
-
-}
-
-.features_photo_1, .features_photo_2, .features_photo_3, .features_photo_4, .features_photo_5, .features_photo_6 {
-    margin-top: 26%;
-    margin-left: 130px;
 
 }
 
@@ -257,33 +251,12 @@ a {
 
 }
 
-.features_name_col_2{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #2d3033;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 70px;
-
-}
-
-.features_text_col_2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    line-height: 21px;
-    color: #6c7279;
-    text-align: center;
-    padding-top: 35px;
-    margin-left: auto;
-
-}
-
 .works {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-size: cover;
+    background-repeat: no-repeat;
     justify-content: space-between;
 
 }
@@ -296,7 +269,7 @@ a {
     line-height: 21px;
     text-align: center;
     padding-top: 140px;
-    display:none;
+    opacity: 0;
 }
 .work_text_2{
     font-family: 'Raleway', sans-serif;
@@ -305,23 +278,31 @@ a {
     color: #ffffff;
     text-transform: capitalize;
     text-align: center;
-    display:none;
-    padding-bottom: 173px;
+    opacity: 0;
+
 
 }
 .work_1, .work_2, .work_3, .work_4, .work_5, .work_6, .work_7, .work_8 {
     width: 24.94%;
     height: 350px;
     margin-bottom: 1px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
 }
-
+.work_1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #e84545;
+}
 .work_1{
     background-image: url(../image/Layer35.png);
 
 }
 .work_1:hover .work_text_1, .work_1:hover .work_text_2 {
-    display: block;
+
     opacity: 0.85;
     background: #e84545;
 }
@@ -333,6 +314,7 @@ a {
 
 .work_2:hover .work_text_1, .work_2:hover .work_text_2{
     display: block;
+    transition: 0.04s;
     opacity: 0.85;
     background: #e84545;
 
@@ -530,6 +512,8 @@ a {
 }
 
 .first_comment_photo{
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(../image/Layer19.png);
     width: 49%;
     flex: 1;
@@ -612,7 +596,7 @@ a {
     vertical-align:middle
 }
 
-.footer2{
+.information{
     padding-top: 70px;
     padding-bottom: 90px;
     background-color: #3a3e64;
