@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cardo:400,400i&display=swap');
 body {
-    display: block;
+
     margin: 0px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -117,7 +117,6 @@ a {
     margin-inline-end: 0px;
     padding-bottom: 50px;
 }
-
 .button {
     -moz-border-radius:  3px; /* Firefox */
     -webkit-border-radius:  3px; /* Safari 4 */
@@ -132,7 +131,12 @@ a {
     vertical-align:middle;
     margin-bottom: 200px;
 }
+.button:hover{
+    background: rgba(0,0,0,0);
+    color: #ffffff;
+    transition-duration: 0.5s;
 
+}
 /*#second_block{
     display: none;
     width: 468px;
@@ -258,6 +262,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-between;
+    text-align: center;
 
 }
 .work_text_1{
@@ -267,7 +272,6 @@ a {
     color: #ffffff;
     text-transform: uppercase;
     line-height: 21px;
-    text-align: center;
     padding-top: 140px;
     opacity: 0;
 }
@@ -277,9 +281,7 @@ a {
     font-weight: 300;
     color: #ffffff;
     text-transform: capitalize;
-    text-align: center;
     opacity: 0;
-
 
 }
 .work_1, .work_2, .work_3, .work_4, .work_5, .work_6, .work_7, .work_8 {
@@ -289,34 +291,42 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
 
-
 }
-.work_1 a{
+.work_1 a, .work_2 a, .work_3 a, .work_4 a, .work_5 a, .work_6 a, .work_7 a, .work_8 a{
     display: block;
     width: 100%;
     height: 100%;
-    background: #e84545;
+    background: rgba(232, 69, 69, 0.85);
+    opacity: 0;
 }
 .work_1{
     background-image: url(../image/Layer35.png);
 
 }
-.work_1:hover .work_text_1, .work_1:hover .work_text_2 {
+.work_1 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
-    opacity: 0.85;
-    background: #e84545;
 }
+.work_1 :hover .work_text_1, .work_1 :hover .work_text_2{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_2{
     background-image: url(../image/Layer36.png);
 
 }
+.work_2 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
-.work_2:hover .work_text_1, .work_2:hover .work_text_2{
-    display: block;
-    transition: 0.04s;
-    opacity: 0.85;
-    background: #e84545;
+}
+.work_2 :hover .work_text_1, .work_2 :hover .work_text_2{
+    transition-duration: 0.5s;
+    opacity: 1;
 
 }
 
@@ -324,35 +334,45 @@ a {
     background-image: url(../image/Layer37.png);
 
 }
+.work_3 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_3:hover .work_text_1, .work_3:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
-
+    transition-duration: 0.5s;
+    opacity: 1;
 }
 
 .work_4{
     background-image: url(../image/Layer38.png);
 
 }
-
-.work_4:hover .work_text_1, .work_4:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
+.work_4 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
 }
+.work_4:hover .work_text_1, .work_4:hover .work_text_2{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_5{
     background-image: url(../image/Layer39.png);
 
 }
+.work_5 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_5:hover .work_text_1, .work_5:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
+    transition-duration: 0.5s;
+    opacity: 1;
 
 }
 
@@ -360,11 +380,15 @@ a {
     background-image: url(../image/Layer40.png);
 
 }
+.work_6 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_6:hover .work_text_1, .work_6:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
+    transition-duration: 0.5s;
+    opacity: 1;
 
 }
 
@@ -372,23 +396,30 @@ a {
     background-image: url(../image/Layer41.png);
 
 }
+.work_7 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_7:hover .work_text_1, .work_7:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
-
+    transition-duration: 0.5s;
+    opacity: 1;
 }
 
 .work_8{
     background-image: url(../image/Layer42.png);
 
 }
+.work_8 a:hover
+{
+    transition-duration: 0.5s;
+    opacity: 1;
 
+}
 .work_8:hover .work_text_1, .work_8:hover .work_text_2{
-    display: block;
-    opacity: 0.85;
-    background: #e84545;
+    transition-duration: 0.5s;
+    opacity: 1;
 
 }
 
@@ -528,6 +559,7 @@ a {
 .first_comment_text{
     margin-left: 9%;
     margin-top: 12%;
+    width: 74.5%;
     font-size: 36px;
     line-height: 42px;
     color: #ffffff;
@@ -595,18 +627,31 @@ a {
     padding: 13px 85px;
     vertical-align:middle
 }
+.button_download:hover{
+    background: rgba(0,0,0,0);
+    color: #2d3033;
+    transition-duration: 0.5s;
 
+}
+.information_background-color{
+    background-color: #3a3e64;
+}
 .information{
     padding-top: 70px;
     padding-bottom: 90px;
     background-color: #3a3e64;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .address{
-    width: 23%;
-    background-color: #3a3e64;
+    width: 33%;
 
 }
 
@@ -628,12 +673,10 @@ a {
     text-align: center;
 
 }
-
 .share{
-    width: 23%;
+    width: 33%;
 
 }
-
 .share2{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
@@ -643,7 +686,6 @@ a {
     text-transform: uppercase;
 
 }
-
 .share_buttons{
     padding-top: 20px;
     padding-left: 34%;
@@ -654,9 +696,8 @@ a {
     flex-direction: row;
 
 }
-
 .about{
-    width: 21.5%;
+    width: 33%;
 
 }
 .about2{
@@ -677,7 +718,9 @@ a {
     text-align: center;
 
 }
-
+.cr_background-color{
+    background-color: #313454;
+}
 .cr{
     background-color: #313454;
     padding-bottom: 30px;
@@ -687,13 +730,7 @@ a {
 
 }
 
-.footer4{
-    text-align: center;
-
-}
-
 .cr_text {
-
     font-size: 14px;
     line-height: 23px;
     color: #808080;
@@ -707,15 +744,18 @@ a {
     font-weight: 700;
     color: #ffffff;
 
-}
 
+}
+.cr_text2:hover{
+    text-decoration: underline;
+
+}
 .heart{
     text-align: center;
     color: #e84545;
 }
 
 .button_for_share{
-
     background: #3a3e64; /* Цвет фона */
     color: #3a3e64;
     border: 2px solid white;
