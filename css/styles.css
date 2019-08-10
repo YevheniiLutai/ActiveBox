@@ -38,12 +38,33 @@ a {
     display: flex;
     
 }
+
+@media (min-width: 576px) {
+    .nav_text {
+        padding-left: 6px;
+    }
+}
+@media (min-width: 768px) {
+    .nav_text {
+        padding-left: 30px;
+    }
+}
+@media (min-width: 992px) {
+    .nav_text {
+        padding-left: 60px;
+    }
+}
+@media (min-width: 1200px) {
+    .nav_text{
+        padding-left: 60px;
+    }
+}
 .nav_menu{
     display: flex;
     padding: 30px 0px;
 }
 .nav_text{
-    padding-left: 60px;
+
     font-size: 13px;
     color: #ffffff;
     font-family: "Raleway", sans-serif;
