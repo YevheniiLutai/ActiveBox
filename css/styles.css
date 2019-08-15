@@ -121,7 +121,6 @@ a {
 
 .features_item {
     padding-top: 70px;
-
     width: 30%;
     margin: 0 15px;
 
@@ -230,9 +229,6 @@ a {
     height: 350px;
     margin-left: 1px;
     margin-bottom: 1px;
-    display: inline-block;
-
-    background-repeat: no-repeat;
 }
 
 .work_items a {
