@@ -226,9 +226,14 @@ a {
 
 .work_items {
     width: 24.94%;
-    height: 350px;
+    height: auto;
     margin-left: 1px;
     margin-bottom: 1px;
+}
+
+.work_items_photo {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .work_items a {
@@ -242,8 +247,6 @@ a {
 
 .work_photo_1 {
     background-image: url(../image/Layer35.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_items a:hover {
@@ -257,44 +260,30 @@ a {
 
 .work_photo_2 {
     background-image: url(../image/Layer36.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_3 {
     background-image: url(../image/Layer37.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_4 {
     background-image: url(../image/Layer38.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_5 {
     background-image: url(../image/Layer39.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_6 {
     background-image: url(../image/Layer40.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_7 {
     background-image: url(../image/Layer41.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .work_photo_8 {
     background-image: url(../image/Layer42.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 /*----------------------------Media----------------------------*/
@@ -305,6 +294,10 @@ a {
 
     .team_item {
         width: 86%;
+    }
+
+    .nav_menu {
+        display: none;
     }
 
     .first_comment_name {
