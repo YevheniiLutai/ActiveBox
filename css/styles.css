@@ -6,7 +6,14 @@ body {
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
+    font-size: 14px;
     background-color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
 a {
@@ -20,7 +27,7 @@ a {
     margin: auto;
 }
 
-/*----------------------------Top----------------------------*/
+/*==============================/Top/==============================*/
 .top {
     background-image: url(../image/Layer34.png);
     background-size: cover;
@@ -109,130 +116,82 @@ a {
     display: none;
     background: none;
     border: 0;
+    padding: 9px 2px;
     cursor: pointer;
 }
 
 .menu_button_items {
     display: block;
-    padding: 9px 2px;
-    width: 30px;
-    height: 3px;
-    background-color: #6c7279;
+    background-color: #ffffff;
     font-size: 0;
     color: transparent;
+    width: 30px;
+    height: 3px;
     position: relative;
 
 }
 
 .menu_button_items:before,
 .menu_button_items:after {
-    background-color: #6c7279;
+    background-color: #ffffff;
     content: "";
-    width: 100%;
     height: 100%;
     position: absolute;
-    left: 0;
+    right: 0;
     z-index: 1;
+
 }
 
 .menu_button_items:before {
+    width: 30px;
     top: -8px;
 }
 
 .menu_button_items:after {
+    width: 30px;
     bottom: -8px;
 }
 
-/*----------------------------Features----------------------------*/
+/*==============================/Features/==============================*/
 .features {
-    margin: 50px 0 120px;
+    margin: 70px -40px 100px -40px;
+
 }
 
 .features_filling {
-    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 -15px;
 }
 
 .features_item {
-    padding-top: 70px;
-    width: 30%;
-    margin: 0 15px;
-
-}
-
-.features_photo_1 {
-    width: 60px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer48.png);
-}
-
-.features_photo_2 {
-    width: 73px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer44.png);
+    margin-top: 30px;
     text-align: center;
+    padding: 0 40px;
 
 }
 
-.features_photo_3 {
-    width: 41px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer47.png);
-
-}
-
-.features_photo_4 {
-    width: 56px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer46.png);
-
-}
-
-.features_photo_5 {
-    width: 72px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer43.png);
-
-}
-
-.features_photo_6 {
-    width: 79px;
-    height: 60px;
-    margin: auto;
-    background-image: url(../image/Layer45.png);
-
+.features_photo {
+    padding-bottom: 40px;
 }
 
 .features_name {
     text-transform: uppercase;
-    font-size: 14px;
     color: #2d3033;
     font-weight: 700;
     text-align: center;
-    padding-top: 40px;
 
 }
 
 .features_text {
-    font-size: 14px;
     line-height: 21px;
     color: #6c7279;
     text-align: center;
     padding-top: 35px;
-    margin-left: auto;
-
 }
 
-/*----------------------------Work----------------------------*/
+/*==============================/Work/==============================*/
 .works {
     display: flex;
     flex-direction: row;
@@ -242,7 +201,6 @@ a {
 }
 
 .work_name {
-    font-size: 14px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
@@ -253,7 +211,6 @@ a {
 }
 
 .work_description {
-    font-size: 14px;
     font-weight: 300;
     color: #ffffff;
     padding-bottom: 173px;
@@ -281,6 +238,10 @@ a {
     background: rgba(232, 69, 69, 0.85);
     opacity: 0;
     transition: 0.5s linear;
+}
+
+.work_photo {
+
 }
 
 .work_photo_1 {
@@ -324,259 +285,7 @@ a {
     background-image: url(../image/Layer42.png);
 }
 
-/*----------------------------Media----------------------------*/
-@media (min-width: 272px) and (max-width: 567px) {
-    .work_items {
-        width: 100%;
-    }
-
-    .team_item {
-        width: 86%;
-    }
-
-    .features_item {
-        width: 80%;
-        justify-content: center;
-
-    }
-
-    .nav_menu {
-        display: none;
-    }
-
-    .first_comment_name {
-        font-size: 8px;
-    }
-
-    .first_comment_text {
-        font-size: 13px;
-    }
-
-    .header {
-        border-bottom: 0 solid #6c7279;
-    }
-
-    .banner_text {
-        font-size: 20px;
-        line-height: 35px;
-    }
-
-    .banner_text_description {
-        font-size: 2px;
-        line-height: 16px;
-    }
-
-    .download_title {
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .inf_text {
-        font-size: 10px;
-    }
-
-    .inf_description {
-        font-size: 10px;
-    }
-
-    .menu_button {
-        display: block;
-    }
-}
-
-@media (min-width: 568px) and (max-width: 767px) {
-    .container {
-        width: 498px;
-    }
-
-    .work_items {
-        width: 100%;
-
-    }
-
-    .social {
-        justify-content: center;
-    }
-    .features_item {
-        width: 80%;
-    }
-
-    .team_item {
-        width: 86%;
-    }
-
-    .first_comment_name {
-        font-size: 10px;
-    }
-
-    .first_comment_text {
-        font-size: 16px;
-    }
-
-    .nav_menu {
-        display: none;
-    }
-
-    .menu_button {
-        display: block;
-    }
-
-    .header {
-        border-bottom: 1px solid #6c7279;
-    }
-
-    .banner_text {
-        font-size: 23px;
-        line-height: 39px;
-    }
-
-    .banner_text_description {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .download_title {
-        font-size: 22px;
-        line-height: 18px;
-    }
-
-    .inf_text {
-        font-size: 10px;
-    }
-
-    .inf_description {
-        font-size: 10px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 720px;
-    }
-
-    .work_items {
-        width: 49.80%;
-    }
-
-    .features_item {
-        width: 45%;
-    }
-
-    .team_item {
-        width: 46%;
-    }
-
-    .first_comment_name {
-        font-size: 10px;
-    }
-
-    .first_comment_text {
-        font-size: 26px;
-    }
-
-    .nav_text {
-        margin: 0 15px;
-    }
-
-    .banner_text {
-        font-size: 45px;
-        line-height: 51px;
-    }
-
-    .banner_text_description {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .download_title {
-        font-size: 28px;
-        line-height: 21px;
-    }
-
-    .inf_text {
-        font-size: 12px;
-    }
-
-    .inf_description {
-        font-size: 12px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 960px;
-    }
-
-    .work_items {
-        width: 49.90%;
-    }
-
-    .features_item {
-        width: 45%;
-    }
-
-    .team_item {
-        width: 46%;
-    }
-
-    .banner_text {
-        font-size: 65px;
-        line-height: 71px;
-    }
-
-    .first_comment_name {
-        font-size: 13px;
-    }
-
-    .first_comment_text {
-        font-size: 30px;
-    }
-
-    .banner_text_description {
-        font-size: 22px;
-        line-height: 33px;
-    }
-
-    .nav_text {
-        margin: 0 30px;
-    }
-
-    .inf_text {
-        font-size: 14px;
-    }
-
-    .inf_description {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1140px;
-    }
-
-    .work_items {
-        width: 24.90%;
-    }
-
-    .features_item {
-        width: 30%;
-    }
-
-    .team_item {
-        width: 22.4%;
-    }
-
-    .first_comment_text {
-        font-size: 36px;
-    }
-
-    .inf_description {
-        font-size: 14px;
-    }
-}
-
-/*----------------------------Team----------------------------*/
+/*==============================/Team/==============================*/
 .team {
     margin: 100px 0 70px;
 }
@@ -589,14 +298,13 @@ a {
 }
 
 .team_item {
-    padding: 0 15px;
+    margin: 0 15px;
 }
 
 .team_photo {
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 .team_name {
@@ -615,7 +323,6 @@ a {
 }
 
 .team_text {
-    font-size: 14px;
     line-height: 21px;
     color: #6c7279;
     text-align: left;
@@ -657,53 +364,63 @@ a {
     transition: background 0.1s linear;
 }
 
-/*----------------------------Comment----------------------------*/
+/*==============================/Comment/==============================-*/
 .comment {
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    background-color: #53354a;
+    overflow: hidden;
 }
 
-.first_comment_photo {
+.comment_item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment_photo {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../image/Layer19.png);
-    width: 49%;
-    flex: 1;
+    width: 50%;
+    height: 500px;
+    position: relative;
 }
 
-.first_comment_block {
-    width: 51%;
-    background-color: #53354a;
-    padding-bottom: 170px;
-    padding-left: 85px;
-    padding-top: 115px;
-
+.comment_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
-.first_comment_text {
-    width: 65.5%;
-    line-height: 42px;
+.comment_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.comment_text {
+    font-size: 36px;
+    line-height: 1.2;
     color: #ffffff;
     font-family: 'Cardo', serif;
     font-weight: 400;
     font-style: italic;
+    margin-bottom: 25px;
 }
 
-.first_comment_name {
+.comment_name {
+    font-size: 13px;
     text-transform: uppercase;
     line-height: 21px;
     color: #ffffff;
     font-weight: 700;
 }
 
-/*----------------------------Download----------------------------*/
+/*==============================/Download/==============================*/
 .download {
     margin-top: 100px;
-    text-align: center;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .download_title {
@@ -745,7 +462,7 @@ a {
     color: #2d3033;
 }
 
-/*----------------------------Footer----------------------------*/
+/*==============================/Footer/==============================*/
 .information_filling {
     background-color: #3a3e64;
     padding-top: 70px;
@@ -776,7 +493,6 @@ a {
 
 .inf_description {
     padding-top: 20px;
-
     line-height: 23px;
     color: #a9a9a9;
     text-align: center;
@@ -832,8 +548,6 @@ a {
 }
 
 .cr_text {
-
-    font-size: 14px;
     line-height: 23px;
     color: #808080;
 }
@@ -853,30 +567,116 @@ a {
     color: #e84545;
 }
 
-/*@media (max-width: 450px) {
+/*==============================/Media/==============================*/
+@media (min-width: 272px) and (max-width: 567px) {
 
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 720px;
+    /*----------------------------//Top//----------------------------*/
+    .nav_menu {
+        display: none;
     }
+
+    .header {
+        border-bottom: 0 solid #6c7279;
+    }
+
     .banner_text {
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 35px;
     }
+
     .banner_text_description {
-        font-size: 16px;
-        margin-bottom: 30px;
+        font-size: 12px;
+        line-height: 16px;
     }
-    .social {
-        justify-content: center;
+
+    .menu_button {
+        display: block;
     }
+
+    /*----------------------------//Features//----------------------------*/
+    .features {
+        margin: 20px 0 50px;
+
+    }
+
+    .features_item {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*----------------------------//Work//----------------------------*/
+    .work_items {
+        width: 100%;
+    }
+
+    /*----------------------------//Team//----------------------------*/
+    .team {
+        margin: 50px 0 20px;
+    }
+
+    /*----------------------------//Comment//----------------------------*/
+    .comment_photo {
+        width: 100%;
+    }
+
+    .comment_img {
+        right: -95px;
+    }
+
+    .comment_content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .comment_text {
+        font-size: 18px;
+
+    }
+
+    .comment_name {
+        font-size: 10px;
+        padding-bottom: 15px;
+
+    }
+
+    /*----------------------------//Download//----------------------------*/
+    .download {
+        margin: 50px 0;
+    }
+
+    .download_title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /*----------------------------//Footer//----------------------------*/
+    .inf_text {
+        font-size: 13px;
+    }
+
+    .inf_description {
+        font-size: 13px;
+    }
+
+    .information_item {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .information_filling {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
 }
 
-@media (min-width: 992px) {
+@media (min-width: 568px) and (max-width: 767px) {
     .container {
-        width: 960px;
+        width: 498px;
     }
+
+    /*----------------------------//Top//----------------------------*/
     .nav_menu {
         display: none;
     }
@@ -884,16 +684,221 @@ a {
     .menu_button {
         display: block;
     }
-    .banner_text {
-        font-size: 40px;
+
+    .header {
+        border-bottom: 1px solid #6c7279;
     }
+
+    .banner_text {
+        font-size: 23px;
+        line-height: 39px;
+    }
+
+    .banner_text_description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /*----------------------------//Features//----------------------------*/
     .features_item {
-        width: 40%;
+        width: 50%;
+    }
+
+    /*----------------------------//Work//----------------------------*/
+    .work_items {
+        width: 100%;
+
+    }
+
+    /*----------------------------//Team//----------------------------*/
+    .team {
+        margin: 50px 0 20px;
     }
 
     .team_item {
-        width: 46.4%;
+        width: 100%;
+    }
 
+    /*----------------------------//Comment//----------------------------*/
+    .comment_photo {
+        width: 100%;
+    }
+
+    .comment_img {
+        right: -148px;
+    }
+
+    .comment_content {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .comment_text {
+        font-size: 25px;
+
+    }
+
+    .comment_name {
+        padding-bottom: 25px;
+
+    }
+
+    /*----------------------------//Download//----------------------------*/
+    .download {
+        margin: 60px 0;
+    }
+
+    .download_title {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    /*----------------------------//Footer//----------------------------*/
+    .information_filling {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    .inf_text {
+        font-size: 12px;
+    }
+
+    .inf_description {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+
+    /*----------------------------//Top//----------------------------*/
+    .nav_text {
+        margin: 0 15px;
+    }
+
+    .banner_text {
+        font-size: 45px;
+        line-height: 51px;
+    }
+
+    .banner_text_description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /*----------------------------//Features///----------------------------*/
+    .features_item {
+        width: 45%;
+        padding-top: 20px;
+
+    }
+
+    /*----------------------------//Work//----------------------------*/
+    .work_items {
+        width: 49.80%;
+    }
+
+    /*----------------------------//Team//----------------------------*/
+    .team {
+        margin: 60px 0 30px;
+    }
+
+    .team_item {
+        width: 45.5%;
+    }
+
+    /*----------------------------//Comment//----------------------------*/
+    .comment_text {
+        font-size: 25px;
+    }
+
+    .comment_name {
+        font-size: 12px;
+    }
+
+    /*----------------------------//Download//----------------------------*/
+    .download {
+        margin: 70px 0;
+    }
+
+    .download_title {
+        font-size: 28px;
+        line-height: 21px;
+    }
+
+    /*----------------------------//Footer//----------------------------*/
+    .information_filling {
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+
+    .inf_text {
+        font-size: 12px;
+    }
+
+    .inf_description {
+        font-size: 12px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    /*----------------------------//Top//----------------------------*/
+    .banner_text {
+        font-size: 65px;
+        line-height: 71px;
+    }
+
+    .banner_text_description {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .nav_text {
+        margin: 0 30px;
+    }
+
+    /*----------------------------//Features//----------------------------*/
+    .features_item {
+        width: 50%;
+    }
+
+    /*----------------------------//Work//----------------------------*/
+    .work_items {
+        width: 49.90%;
+    }
+
+    /*----------------------------//Team//----------------------------*/
+    .team_item {
+        width: 45.5%;
+    }
+
+    /*----------------------------//Comment//----------------------------*/
+    .comment_text {
+        font-size: 36px;
+
+    }
+
+    .comment_name {
+        padding-bottom: 25px;
+
+    }
+
+    /*----------------------------//Download//----------------------------*/
+    /*----------------------------//Footer//----------------------------*/
+    .inf_text {
+        font-size: 14px;
+    }
+
+    .inf_description {
+        font-size: 14px;
     }
 
 }
@@ -902,4 +907,31 @@ a {
     .container {
         width: 1140px;
     }
-}*/
+
+    /*----------------------------//Top//----------------------------*/
+    /*----------------------------//Features//----------------------------*/
+    .features_item {
+        width: calc(100% / 3);
+    }
+
+    /*----------------------------//Work//----------------------------*/
+    .work_items {
+        width: 24.90%;
+    }
+
+    /*----------------------------//Team//----------------------------*/
+    .team_item {
+        width: 22.3%;
+
+    }
+
+    /*----------------------------//Comment//----------------------------*/
+    .comment_text {
+        font-size: 36px;
+
+    }
+
+    /*----------------------------//Download//----------------------------*/
+    /*----------------------------//Footer//----------------------------*/
+
+}
