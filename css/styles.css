@@ -105,6 +105,44 @@ a {
     color: #ffffff;
 }
 
+.menu_button {
+    display: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.menu_button_items {
+    display: block;
+    padding: 9px 2px;
+    width: 30px;
+    height: 3px;
+    background-color: #6c7279;
+    font-size: 0;
+    color: transparent;
+    position: relative;
+
+}
+
+.menu_button_items:before,
+.menu_button_items:after {
+    background-color: #6c7279;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.menu_button_items:before {
+    top: -8px;
+}
+
+.menu_button_items:after {
+    bottom: -8px;
+}
+
 /*----------------------------Features----------------------------*/
 .features {
     margin: 50px 0 120px;
@@ -296,6 +334,12 @@ a {
         width: 86%;
     }
 
+    .features_item {
+        width: 80%;
+        justify-content: center;
+
+    }
+
     .nav_menu {
         display: none;
     }
@@ -318,13 +362,25 @@ a {
     }
 
     .banner_text_description {
-        font-size: 10px;
+        font-size: 2px;
         line-height: 16px;
     }
 
-    .download_text1 {
-        font-size: 21px;
+    .download_title {
+        font-size: 15px;
         line-height: 25px;
+    }
+
+    .inf_text {
+        font-size: 10px;
+    }
+
+    .inf_description {
+        font-size: 10px;
+    }
+
+    .menu_button {
+        display: block;
     }
 }
 
@@ -338,8 +394,11 @@ a {
 
     }
 
+    .social {
+        justify-content: center;
+    }
     .features_item {
-        width: 75%;
+        width: 80%;
     }
 
     .team_item {
@@ -356,6 +415,10 @@ a {
 
     .nav_menu {
         display: none;
+    }
+
+    .menu_button {
+        display: block;
     }
 
     .header {
@@ -375,6 +438,14 @@ a {
     .download_title {
         font-size: 22px;
         line-height: 18px;
+    }
+
+    .inf_text {
+        font-size: 10px;
+    }
+
+    .inf_description {
+        font-size: 10px;
     }
 }
 
@@ -421,6 +492,14 @@ a {
         font-size: 28px;
         line-height: 21px;
     }
+
+    .inf_text {
+        font-size: 12px;
+    }
+
+    .inf_description {
+        font-size: 12px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -461,6 +540,14 @@ a {
     .nav_text {
         margin: 0 30px;
     }
+
+    .inf_text {
+        font-size: 14px;
+    }
+
+    .inf_description {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -484,6 +571,9 @@ a {
         font-size: 36px;
     }
 
+    .inf_description {
+        font-size: 14px;
+    }
 }
 
 /*----------------------------Team----------------------------*/
@@ -571,6 +661,8 @@ a {
 .comment {
     background-size: cover;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -675,27 +767,19 @@ a {
 }
 
 .inf_text {
-    font-size: 14px;
+
     color: #ffffff;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
 
-.inf_address {
+.inf_description {
     padding-top: 20px;
-    font-size: 14px;
+
     line-height: 23px;
     color: #a9a9a9;
     text-align: center;
-}
-
-.share {
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .share_buttons {
@@ -734,22 +818,6 @@ a {
     transition: background 0.1s linear;
 }
 
-.about {
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.about_text {
-    padding-top: 20px;
-    font-size: 14px;
-    line-height: 23px;
-    color: #a9a9a9;
-    text-align: center;
-}
-
 .cr {
     background-color: #313454;
 }
@@ -784,3 +852,54 @@ a {
     text-align: center;
     color: #e84545;
 }
+
+/*@media (max-width: 450px) {
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+    .banner_text {
+        font-size: 30px;
+    }
+    .banner_text_description {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .social {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+    .nav_menu {
+        display: none;
+    }
+
+    .menu_button {
+        display: block;
+    }
+    .banner_text {
+        font-size: 40px;
+    }
+    .features_item {
+        width: 40%;
+    }
+
+    .team_item {
+        width: 46.4%;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}*/
